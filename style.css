@@ -454,3 +454,28 @@ header .navbar ul li a:hover{
     }
 
  }
+
+ .boxs:hover{
+    color: white;
+    font-size: 22px;
+    background-color: #2f9aa8;
+    ;
+ }
+ .boxs{
+    border-radius: 10px;
+    width:20rem;
+    text-align: center;
+    padding: 2rem;
+    margin:2rem;
+    size: 18px;
+    font-size: 20px;
+    color: #ffffff;
+    background-color:#0891a3;
+ }
+
+.links{
+    color: white;
+}
+.links:hover{
+    color: #222;
+}
