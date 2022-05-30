@@ -1,0 +1,36 @@
+:root{
+    --yellow:#24e0f9;
+    --yellow2:#e2f5f8;
+}
+*{
+    font-family:'Ubuntu';
+}
+.wrapper{
+    padding: 15px;
+    font-family: 'Ubuntu';
+}
+
+.wrapper span{
+    color:var(--yellow);
+}
+
+.heading{
+    text-align: center;
+}
+
+table {
+    font-family: 'Ubuntu';
+    border-collapse: collapse;
+    width: 100%;
+  }
+  
+  td, th {
+    border: 1px solid #73b0ff;
+    text-align: left;
+    padding: 8px;
+  }
+  
+  tr:nth-child(even) {
+    background-color:var(--yellow2);
+    color: black;
+  }
