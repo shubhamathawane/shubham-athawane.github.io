@@ -479,3 +479,13 @@ header .navbar ul li a:hover{
 .links:hover{
     color: #222;
 }
+
+.link a{
+    text-decoration: none;
+    color: white;
+}
+
+.link:hover{
+    cursor: pointer;
+    color: #2ddbf1;
+}
