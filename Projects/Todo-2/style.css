@@ -1,3 +1,19 @@
 body{
     font-family: 'Courier New', Courier, monospace;
 }
+
+.wrapper{
+    text-align: center;
+    padding: 25px;
+}
+
+.button{
+    padding: 5px;
+    border-radius: 7px;
+    text-decoration: none;
+    border: none;
+}
+
+.flex-grow-1{
+    justify-content: space-around;
+}
