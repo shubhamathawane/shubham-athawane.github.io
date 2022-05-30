@@ -1,0 +1,69 @@
+*{
+    font-family: 'Ubuntu';
+
+}
+.wrapper{
+    align-items: center;
+}
+
+.div1{
+    align-items: center;
+    text-align: center;
+    background-color: rgb(182, 214, 255);
+    padding: 18px;
+    height: 240px;
+    border-radius: 10px;
+}
+
+.div2{
+    text-align: center;
+    align-items: center;
+    background-color: rgb(220, 255, 225);
+    padding: 18px;
+    height: 240px;
+    border-radius: 10px;
+}
+
+.btns{
+    cursor: pointer;
+    border: none;
+    border-radius: 5px;
+    padding: 5px;
+}
+
+.btns:hover{
+    background-color: gray;
+    color: wheat;
+}
+
+.labels1{
+   /* width: 200px; */
+   /* height: 30px; */
+   font-style: bold;
+   font-family: 'Ubuntu';
+   /* border: 1px solid white; */
+   font-size: 18px;
+   /* padding: 10px; */
+   /* margin-left: 310px; */
+}
+
+.inputs{
+    border-radius: 5px;
+    width: 200px;
+   height: 30px;
+   font-size: 20px;
+   color: rgb(71, 70, 70);
+}
+
+@media screen and (min-width: 601px) {
+    div.wrapper {
+      font-size: 25px;
+    }
+  }
+  
+  /* If the screen size is 600px wide or less, set the font-size of <div> to 30px */
+  @media screen and (max-width: 600px) {
+    div.wrapper {
+      font-size: 17px;
+    }
+  }
